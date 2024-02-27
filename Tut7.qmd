@@ -12,7 +12,7 @@ date-format: long
 
 ## Introduction
 
-While dealing with real-life data, statisticians often encounter errors that could affect the accuracy of their analysis. These errors could be sourced from multiple areas like human-errors, machine-errors and unidentified bugs in code. In this paper, I would like to explore the effects of these errors while conducting statistical analysis and how we can set up measures to identify and attenuate them. Let us consider the scenario of calculating the mean of a Normal Distribution where the data is simulated with errors.
+While dealing with real-life data, statisticians often encounter errors that could affect the accuracy of their analysis. These errors could be sourced from multiple areas like human-errors, machine-errors and unidentified bugs in code. In this paper, I would like to explore the effects of these errors while conducting statistical analysis and how we can set up measures to identify and attenuate them.Let us consider the scenario of calculating the mean of a Normal Distribution where the data is simulated with errors.
 
 
 ## Simulating the data and required errors
@@ -21,7 +21,7 @@ The intention of this exercise is to understand the behavior of statistical anal
 
 ## Finding the mean of the true data generating process
 
-As the normal distribution is determined by two parameters, mean and standard deviation, we can employ Linear Regression to estimate them as close as possible. We can also employ the method of least squares to make a comparison about our simulated mean and the actual mean. Utilizing these methods allows us to identify the potential difference between the true and errored distribution. Our goal is to calculate the mean of the true data generating process so we can declare the hypothesis of the mean being greater than 0.
+As the normal distribution is determined by two parameters, mean and standard deviation, we can employ Linear Regression to estimate them as close as possible. We can also employ the method of least squares to make a comparison about our simulated mean and the actual mean. Utilizing these methods allows us to identify the potential difference between the true and errored distribution. Our goal is to calculate the mean of the true data generating process so we can declare the hypothesis of the mean being greater than 0. Using this method, we can identify the excess noise and trend-disturbance that can be introduced due to the rewriting of data and human-produced errors.
 
 ## Impact of errors on analysis
 
@@ -50,19 +50,11 @@ We can also try to simualate the data by taking a subset of the real data, and p
 
 Through the exercise of this paper, we learn that before we begin any analysis, we must always account for the possibility of errors in the data set and not just the actual procedure. Setting up thorough methods of identifying the errors will make our analysis more reliable and produce more accurate results that are true to the nature of the expected distribution.
 
+However, we must also take into consideration that not all errors in the process of generating and storing data can be identified and have appropriate mitigation strategies. To solidify our findings, we would have to look into other strategies of hypothesis testing and compare if we have overall uniform results.
 
 
+## Peer Review
 
-
-
-
-
-
-
-
-
-
-
-
-
+I would like to thank Chay Park for her review to make improvements to my paper. You can find her review at this link: https://github.com/aamishi/STA302-Tutorial-07/issues/1.
+Her student number is 1006486982 and email is chay.park@mail.utoronto.ca.
 
